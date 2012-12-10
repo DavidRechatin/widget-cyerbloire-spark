@@ -1,0 +1,176 @@
+
+body{
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #222222;
+	margin: 10px;
+}
+img {
+	border:0 none;
+	margin:0 10px 0 10px;
+}
+h3 img {
+	vertical-align:middle;
+	margin:0 5px 0 0;
+}
+#loading {
+	display:none;
+}
+
+body a , body a:link, body a:visited { 
+	text-decoration: none; 
+}
+a {
+	color: #007014;
+}
+
+a:hover {
+	text-decoration: underline; 
+	color: #6E0070;
+}
+
+#container {
+	//width: 350px;
+	//margin:0 auto;
+	width: 100%;
+}
+
+
+.vign {
+	text-align: center;
+	height: 80px;
+	width: 80px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	display: block;
+	float: left;
+	
+    /* Border Radius */  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;
+}
+
+.vign span {
+	color: #222222;
+}
+
+a.vign {
+	color: #222222;
+	text-decoration: none; 
+}
+
+.indispo { 
+color: #555;
+}
+
+.indispo img{ 
+	filter:alpha(opacity=40); /* propri�taire IE */
+	-moz-opacity:0.40; /* propri�taire Firefox */
+	opacity:0.40; /* CSS3 */
+}
+
+.indispo_hover { 
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(0,0,0,0.6);  
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.6); 
+	background: #DDD;
+	cursor: not-allowed;
+}
+
+.occup {  
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(150,100,50,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(150,100,50,0.6);  
+    box-shadow: 1px 2px 2px rgba(150,100,50,0.6); 
+	background: #FED;
+}
+
+.occup_hover { 
+	background: #FDC;
+	cursor: wait;
+}
+
+.dispo {  
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(0,150,0,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(0,150,0,0.6);  
+    box-shadow: 1px 2px 2px rgba(0,150,0,0.6); 
+	background: #EEFFEE;
+}
+
+.dispo_hover { 
+	color: #11A300;
+	background: #CFC;
+	cursor: pointer;
+}
+
+.erreur {  
+}
+
+.erreur img{ 
+	filter:alpha(opacity=50); /* propri�taire IE */
+	-moz-opacity:0.50; /* propri�taire Firefox */
+	opacity:0.50; /* CSS3 */
+}
+
+.erreur_hover { 
+    /* Border Shadow */  
+    -webkit-box-shadow: 1px 2px 2px rgba(150,0,0,0.6);  
+    -moz-box-shadow: 1px 2px 2px rgba(150,0,0,0.6);  
+    box-shadow: 1px 2px 2px rgba(150,0,0,0.6);
+	background: #FCC;
+	cursor: not-allowed;
+}
+
+.clear {
+	clear: both;
+}
+
+/* D�fintion pour la r�cup�ration du widget */
+
+#signet {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+	border-width: 1px;
+	border-color: #BBB #BBB #BBB #BBB;
+	border-style: solid;
+	padding: 6px 20px 3px 10px;
+	background: #DDD;
+}
+#signet img {
+	padding-right: 5px;
+}
+
+#btMenu {
+	margin: 5px 4px 0 4px;
+	float: left;
+}
+
+#titre {
+	margin: 2px 0 5px 0;
+	
+}
+
+#menu {
+	/* margin-top: 10px; */
+	clear: both;
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #EEFFEE;
+	border-width: 1px;
+	border-color: #E0EFFA;
+	border-style: solid;
+    /* Border Radius */  
+    -webkit-border-radius: 5px;  
+    -moz-border-radius: 5px;  
+    border-radius: 5px;
+}
+
+.bt_menu {
+	float: left;
+	margin: 2px;
+}
